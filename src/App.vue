@@ -1,0 +1,27 @@
+<script setup>
+import { RouterLink, RouterView } from "vue-router";
+</script>
+
+<template>
+  <div class="wrapper">
+    <div class="text-effect-wrapper">
+  <!-- The contenteditable attribute means you can type your text right on the page -->
+  <h1 class="text" contenteditable>Neon</h1>
+</div>
+
+<label for="option-toggle">
+  <input type="checkbox" id="option-toggle"> Version toggle
+</label>
+
+  </div>
+    <video class="movie" autoplay loop muted src="./Crayson.mp4"></video>
+  <RouterView />
+</template>
+
+<style>
+.wrapper{
+  max-width: 1440px;
+   width: 100%;
+ margin: 0 auto;
+}
+</style>
