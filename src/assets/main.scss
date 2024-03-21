@@ -94,6 +94,7 @@
   display: block;
   border:1px solid red;
   margin: 0 auto;
+  max-width: 600px;
 }
 /* Alternative styling */
 body:has(#option-toggle:checked) {
@@ -142,4 +143,8 @@ h1 {
     min-width: 1ch;
     outline-offset: 5px;
   }
+}
+h4{
+  color:black;
+  text-align: center;
 }

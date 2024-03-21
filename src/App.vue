@@ -14,7 +14,23 @@ import { RouterLink, RouterView } from "vue-router";
 </label>
 
   </div>
+<div>
+  <a href="https:/totembosite.netlify.app/">
     <video class="movie" autoplay loop muted src="./Crayson.mp4"></video>
+  </a>]
+   <h4>1</h4>
+  <a href="https:/totembosite.netlify.app/">
+    <video class="movie" autoplay loop muted src="./Crayson.mp4"></video>
+  </a>
+ <h4>2</h4>
+  <a href="https:/totembosite.netlify.app/">
+    <video class="movie" autoplay loop muted src="./Crayson.mp4"></video>
+  </a>
+  <h4>3</h4>
+  
+</div>
+
+   
   <RouterView />
 </template>
 
